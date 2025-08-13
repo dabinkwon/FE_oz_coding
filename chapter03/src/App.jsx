@@ -46,10 +46,10 @@ function CounterInput({ inputValue, setInputValue,setCounterNumber }) {
   );
 }
 
-function PlusButton({ setCounter, incrementCounter }) {
+function PlusButton({ incrementCounter }) {
   return <button onClick={incrementCounter}>+</button>;
 }
-function MinusButton({ setCounter, decrementCounter }) {
+function MinusButton({decrementCounter }) {
   return <button onClick={decrementCounter}>-</button>;
 }
 
