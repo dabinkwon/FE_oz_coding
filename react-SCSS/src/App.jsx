@@ -14,6 +14,12 @@ function App() {
         <li>It's so good to see you</li>
         <li>Let's get started with SCSS</li>
       </ul>
+      <section>
+        <article>SCSS syntax includes</article>
+        <article>the use of variables,</article>
+        <article>nested syntax</article>
+        <article>and minxins.</article>
+      </section>
     </>
   );
 }
